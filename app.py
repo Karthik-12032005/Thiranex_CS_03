@@ -7,7 +7,7 @@ from sklearn.naive_bayes import MultinomialNB
 data = pd.read_csv("emails.csv")
 
 # Columns
-X = data["body"]
+X = data["text"]
 y = data["label"]
 
 # Train Model
